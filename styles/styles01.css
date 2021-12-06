@@ -29,12 +29,15 @@ a {
     justify-content: space-between;
     background: #1F2937;
     padding: 0% 15%;
+    flex: 1;
     
 }
 
 .page-links {
     display: flex;
-    gap: 16px;
+    justify-content: space-between;
+    gap: 36px;
+    
 }
 
 .logo {
@@ -141,6 +144,82 @@ a {
     align-self: center;
 }
 
-.footer {
+.container-signup {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
 
+.container-3 {
+    background: #e5e7eb;
+}
+
+.container-3-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 15%;
+    
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: oblique;
+    color: #1F2937;
+}
+
+.person {
+    align-self: flex-end;
+    font-weight: bolder;
+}
+
+.container-4{
+    display: flex;
+    background: white;
+    padding: 5% 15%;
+
+}
+
+.container-4-1 {
+    display: flex;
+    justify-content: space-between;
+    border: 2px #136eff solid;
+    flex: 1;
+    padding: 40px 150px;
+    align-items: center;
+    border-radius: 25px;
+    background: #3882f6;
+}
+
+.button2 {
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 18px;
+    background: #3882f6;
+    width: 150px;
+    padding: 8px 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.call {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e5e7eb;
+}
+
+.sign {
+    color: #e5e7eb;
+
+}
+
+
+.footer {
+    padding: 2% 0%;
+    display: flex;
+    justify-content: center;
+    background: #1F2937;
+    
 }
