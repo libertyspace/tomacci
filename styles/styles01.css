@@ -115,10 +115,11 @@ a {
 .image-box {
     border-radius: 25px;
     border-style: solid;
-    border: 4px solid #1F2937;
+    border: 0px solid #1F2937;
     width: 150px;
     height: 150px;
     color: #1F2937;
+    align-self: center;
 }
 
 .container-2-1 {
